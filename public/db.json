@@ -1,0 +1,42 @@
+[
+  {
+    "id":1,
+    "name":"Kuwaiti Dinar",
+    "shortcode": "KWD",
+    "country": "Kuwaiti",
+    "highestvalue" : "$3.29",
+    "lowestvalue" : "$1"
+  },
+  {
+    "id":2,
+    "name":"Bahraini Dinar",
+    "shortcode": "BHD",
+    "country": "Bahrain",
+    "highestvalue" : "$2.659",
+    "lowestvalue" : "$0.7"
+  },
+  {
+    "id":3,
+    "name":"Jordanian Dinar",
+    "shortcode": "JOD",
+    "country": "Jordan",
+    "highestvalue" : "$1.14",
+    "lowestvalue" : "$0.3"
+  },
+  {
+    "id":4,
+    "name":"Pound Sterling",
+    "shortcode": "GBP",
+    "country": "UK",
+    "highestvalue" : "$1.22",
+    "lowestvalue" : "$1"
+  },
+  {
+    "id":5,
+    "name":"Cayman Islands Dollar",
+    "shortcode": "KYD",
+    "country": "Cayman Islands",
+    "highestvalue" : "$1.2",
+    "lowestvalue" : "0.9"
+  }
+]

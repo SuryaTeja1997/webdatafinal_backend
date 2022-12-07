@@ -1,0 +1,278 @@
+*{
+    margin:  0;
+    padding:  0;
+    box-sizing:  border-box;
+
+
+}
+h3{
+    text-align: start;
+    
+}
+.navbar{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(28, 26, 26, 0.43);
+    top: 0;
+    padding: 10px 20px;
+    text-align: end;
+    
+    
+
+}
+.navbar ul{
+    display: flex;
+    width: 100%;
+    list-style: none;
+    margin: 20px 100px;
+}
+.navbar ul li{
+    display: flex;
+    width: 100%;
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar a{
+    /* display: flex; */
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    padding: 6px 20px;
+
+}
+.navbar ul li a:hover{
+    background-color: rgb(34, 33, 33);
+    color: black;
+    box-shadow: 0 0 10px white;
+}
+#About{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(228, 249, 242);
+
+}
+
+.aboutmain{
+    display: flex;
+    width: 100%;
+    
+}
+h1{
+    /* display: grid; */
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(194, 215, 246);
+}
+
+#box1{
+    /* display: flex; */
+    /* width: 100%; */
+    margin: 0 20px 20px 20px;
+}
+#box2{
+    margin: 0 20px 20px 20px;
+    
+}
+.education{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(248, 244, 238);
+    /* flex-direction: column; */
+    padding: 20px;
+    
+}
+
+.Experience{
+    width: 100%;
+    height: 300px;
+    background-color: #966b6b7e;
+   
+}
+.exp-body{
+    display: flex;
+    width: 100%;
+    padding-top: 20px ; 
+    
+}
+#exp{
+    display: flex;
+    width: 100%;
+    margin: 0 20px 20px 20px;
+
+    
+}
+
+#projectmain{
+     display: flex;
+    width: 100%; 
+    margin: 0 20px 20px 20px;
+}
+ /* #project{
+    display: flex;
+    width: 100%;
+}  */
+
+.row{
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.About img{
+   
+    width: 5px;
+    height: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+
+
+.main{
+   
+    flex-direction: column;
+    border: 1px solid white;
+    align-items: center;
+    top: 50%;
+    right: 10%;
+    background-color: rgb(126, 140, 199)
+}
+.heading{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 50px 0px;
+    
+}
+
+#Blog{
+    /* display: flex; */
+     width: 100%;
+    background-color: rgb(243, 249, 231);
+    align-items: center;
+    padding: 10px;
+}
+
+#skills{
+    display: flex; 
+    width: 100%;
+    height: 300px;
+    flex-direction: column;
+    padding: 20px;
+    background-color: rgb(194, 246, 229);
+
+}
+
+.footer{
+    /* display: flex; */
+    width: 100%;
+    background-color: #ed1919;
+    height: 50px;
+    
+}
+.row{
+    display: flex;
+    justify-content: space-around ;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 450px;
+    border: 1px solid black;
+    margin: 10px;
+    align-items: center;
+    text-align: justify;
+    padding: 10px;
+    border-radius: 15px;
+    background: linear-gradient(to top, rgb(197, 106, 121), white 50%);
+    
+}
+
+    
+
+
+.footer{
+	position: relative;
+	width: 100%;
+	height:75px;
+	background: #c4eff4;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+    align-items: center;
+    
+
+}
+@media screen and (max-width:500px){
+    .aboutmain{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        
+    }
+    /* .Experience{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+    } */
+    .exp-body{
+        display: flex;
+        flex-wrap: wrap;
+        width: auto;
+         padding-top: 20px ; 
+        } 
+        /* .ain{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-top: 20px ;   
+        } */
+        .Pmain{
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            padding-top: 20px ;    
+        }
+
+    h1{
+        width: auto;
+        
+    }
+    .education{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px ; 
+    }
+     #skills{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px ;
+         
+    } 
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    /* #Blog{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding-top: 20px ;
+    } */
+
+  }
+  
+
+
